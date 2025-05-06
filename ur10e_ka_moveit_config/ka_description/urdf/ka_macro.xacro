@@ -13,14 +13,14 @@
         <link name="${prefix}end_effector">
         </link>
         <!-- TCP frames -->
-        <!-- <joint name="${prefix}depth_camera_joint" type="fixed">
-            <origin xyz="0.111986021427 6.69550452272e-8 2.22519248532e-02" rpy="-1.675516081915675 1.6790457912918555e-12 -1.570796326781967" />
+        <joint name="${prefix}depth_camera_joint" type="fixed">
+            <origin xyz="0.06008 0.13302 0.15561" rpy="-1.5707 0 0" />
             <parent link="${prefix}end_effector" />
-            <child link="${prefix}depth_camera_tcp" />
+            <child link="${prefix}pointer_tcp" />
         </joint>
-        <link name="${prefix}depth_camera_tcp" />
+        <link name="${prefix}pointer_tcp" />
 
-        <joint name="${prefix}rgb_camera_joint" type="fixed">
+        <!-- <joint name="${prefix}rgb_camera_joint" type="fixed">
             <origin xyz="0.10554133441 -3.19999999972e-02 1.94659300526e-02" rpy="-1.5707963267928968 0.0 -1.5707963267808966" />
             <parent link="${prefix}end_effector" />
             <child link="${prefix}rgb_camera_tcp" />

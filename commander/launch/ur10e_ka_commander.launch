@@ -10,6 +10,8 @@
     <node name="commander" pkg="commander" type="commander_node.py" output="screen">
         <param name="sim" value="$(arg sim)"/>
     </node>
+    <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_broadcaster"
+      args="0 0 0 0 -1.57 1.57 tool0 ka_camera_base" /> -->
     <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_broadcaster"
-      args="1.11183 -0.225229 0.138311   -0.537323 -0.246895 0.301739 0.74785 base_link ka_rgb_camera_link" />
+      args="0.16669 0.0338842 0.150813   0.00509216 -6.93567e-05 0.703746 0.710433 flange ka_rgb_camera_link" />
 </launch>
