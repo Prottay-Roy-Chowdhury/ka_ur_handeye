@@ -69,6 +69,7 @@ add_service_files(
   SetEe.srv
   TraceTrajectory.srv
   VisualizePoses.srv
+  SavePointCloud.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -180,6 +181,7 @@ catkin_install_python(PROGRAMS
   src/commander/commander_node.py
   src/commander/visualize_poses_srv.py
   src/commander/trace_trajectory_srv.py
+  src/commander/save_ply_service.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
