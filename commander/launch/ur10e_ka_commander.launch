@@ -16,6 +16,8 @@
       args="0.16669 0.0338842 0.150813   0.00509216 -6.93567e-05 0.703746 0.710433 flange ka_rgb_camera_link" /> -->
     <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_broadcaster"
       args="0.173165 0.0343573 0.171262   0.00155538 -0.0080874 0.702764 0.711376 flange ka_rgb_camera_link" /> -->
-      <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_broadcaster"
-      args="0.0324071 0.162512 0.173503   -0.714944 -0.00664989 -0.00153002 0.699148 tool0 ka_rgb_camera_link" />
+      <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_broadcaster"
+      args="0.0324071 0.162512 0.173503   -0.714944 -0.00664989 -0.00153002 0.699148 tool0 ka_rgb_camera_link" /> -->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_broadcaster"
+      args="0.0334332 0.164515 0.177803   -0.713579 -0.00851675 -0.000435021 0.700523 tool0 ka_rgb_camera_link" />
 </launch>
