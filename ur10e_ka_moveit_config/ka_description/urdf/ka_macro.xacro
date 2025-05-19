@@ -14,7 +14,7 @@
         </link>
         <!-- TCP frames -->
         <joint name="${prefix}depth_camera_joint" type="fixed">
-            <origin xyz="-0.06108 -0.13437 0.15508" rpy="-1.5707 0 0" />
+            <origin xyz="-0.01930 -0.13452 0.16022" rpy="-1.5707 0 0" />
             <parent link="${prefix}end_effector" />
             <child link="${prefix}pointer_tcp" />
         </joint>
